@@ -1,0 +1,4 @@
+[INFO ] 2024-09-19 20:40:36.269 com.qa.BestTest:86 - this is info message
+[ERROR] 2024-09-19 20:40:36.272 com.qa.BestTest:87 - this is error message
+[DEBUG] 2024-09-19 20:40:36.272 com.qa.BestTest:88 - this is debug message
+[WARN ] 2024-09-19 20:40:36.273 com.qa.BestTest:89 - this is warning message

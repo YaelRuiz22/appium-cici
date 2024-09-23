@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+<listener class-name="com.qa.listeners.TestListener"/>
+</listeners>
+  <test name="Test">
+  <parameter name="udid" value="emulator-5554"/>
+  <parameter name="avd" value="Pixel_5_API_31"/>
+    <classes>
+      <class name="com.qa.test.LoginTest"/>
+	<methods>
+      <include name="invalidUsername"/>
+     </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
